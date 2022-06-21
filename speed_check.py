@@ -157,7 +157,7 @@ def trackMultipleObjects():
 		#out.write(resultImage)
 
 
-		if cv2.waitKey(33) == 27:
+		if cv2.waitKey(25) & 0xff== ord('q'):
 			break
 	
 	cv2.destroyAllWindows()
